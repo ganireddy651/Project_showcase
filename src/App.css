@@ -13,3 +13,55 @@ body {
 .app-container {
   min-height: 100vh;
 }
+.navbar {
+  background-color: #f1f5f9;
+  padding: 10px 40px;
+}
+.website-logo {
+  height: 50px;
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.select-container {
+  height: 30px;
+  width: 500px;
+}
+@media (max-width: 576px) {
+  .select-container {
+    height: 30px;
+    width: 300px;
+  }
+}
+.failure-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure {
+  width: 100px;
+  height: 100px;
+}
+
+.project-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 30px;
+}
+.custom-btn {
+  background-color: #328af2;
+  color: #ffffff;
+  padding: 5x;
+  border-radius: 5px;
+  border-width: 0;
+  width: 100px;
+  height: 35px;
+}
